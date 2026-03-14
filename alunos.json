@@ -1,11 +1,12 @@
 [
     {
-        "nome": "gb",
-        "curso": "adm",
-        "materia": "mt fnc",
-        "media": 6.7,
-        "situacao": "Recuperação",
-        "frequencia": [],
-        "conteudos": []
+        "id": 2,
+        "nome": "Thayla Darc Gomes Santana",
+        "curso": "8 dicas de empreendendorismo",
+        "materia": "empreender é aprender",
+        "nota1": 8.0,
+        "nota2": 8.0,
+        "media": 8.0,
+        "situacao": "Aprovado"
     }
 ]
