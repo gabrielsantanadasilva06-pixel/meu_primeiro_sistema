@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Alunos</title>
+</head>
+
+<body>
+
+<h1>Lista de Alunos</h1>
+
+{% for aluno in alunos %}
+
+<p><strong>ID:</strong> {{ "%03d"|format(aluno.id) }}</p>
+<p><strong>Nome:</strong> {{ aluno.nome }}</p>
+<p><strong>Curso:</strong> {{ aluno.curso }}</p>
+<p><strong>Matéria:</strong> {{ aluno.materia }}</p>
+<p><strong>Média:</strong> {{ aluno.media }}</p>
+<p><strong>Situação:</strong> {{ aluno.situacao }}</p>
+
+<form action="/excluir/{{ aluno.id }}" method="POST">
+<button type="submit">Excluir aluno</button>
+</form>
+
+<a href="/">
+<button>Voltar ao menu</button>
+</a>
+
+<hr>
+
+{% endfor %}
+
+</body>
+</html>
