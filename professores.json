@@ -5,5 +5,12 @@
         "materias": [
             "historia"
         ]
+    },
+    {
+        "usuario": "samuel",
+        "senha": "2233",
+        "materias": [
+            "matematica financeira"
+        ]
     }
 ]
